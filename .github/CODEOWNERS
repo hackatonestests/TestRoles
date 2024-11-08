@@ -1,0 +1,2 @@
+# Restrict modifications to the .github folder to the DevOps team
+.github/ @hackatonestests/devops
