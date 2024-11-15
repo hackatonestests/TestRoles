@@ -28,4 +28,4 @@ jobs:
 
       - name: Conditional deployment step
         if: ${{ github.event.inputs.environment == 'pre' || github.event.inputs.environment == 'pro' }}
-        run: echo "Approval required for deployment to ${{ github.event.inputs.environment }} environment"
+        run: echo "Approval required for deployment to ${{ github.event.inputs.environment }} environmentt"
